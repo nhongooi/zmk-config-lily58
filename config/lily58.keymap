@@ -24,7 +24,7 @@
 &kp ESC   &kp N1     &kp N2 &kp N3   &kp N4   &kp N5                     &kp N6 &kp N7   &kp N8    &kp N9  &kp N0   &kp GRAVE
 &kp TAB   &kp Q      &kp W  &kp E    &kp R    &kp T                      &kp Y  &kp U    &kp I     &kp O   &kp P    &kp SQT
 &kp BSPC  &kp A      &kp S  &kp D    &kp F    &kp G                      &kp H  &kp J    &kp K     &kp L   &kp SEMI &kp MINUS
-&kp LSHFT &mt Z LALT &kp X  &kp C    &kp V    &kp B  &kp LBKT   &kp RBKT &kp N  &kp M    &kp COMMA &kp DOT &kp FSLH &kp EQUAL
+&kp LSHFT &mt LALT Z &kp X  &kp C    &kp V    &kp B  &kp LBKT   &kp RBKT &kp N  &kp M    &kp COMMA &kp DOT &kp FSLH &kp EQUAL
           &lt 1 PG_DN  &mt LCTRL PG_UP &kp LGUI  &kp SPACE  &kp RET  &lt 1 DEL  &kp HOME &kp END
 			>;
 
@@ -34,7 +34,7 @@
 		lower_layer {
 // ------------------------------------------------------------------------------------------------------------
 // | BTCLR | BT1 | BT2 |  BT3 |  BT4 |  BT5 |                   |      |       |       |      |       |       |
-// |  F1   |  F2 |  F3 |  F4  |  F5  |  F6  |                   |  F7  |  F8   |  F9   |  F10 |  F11  |  F12  |
+// |  F1   |  F2 |  F3 |  F4  |  Fc5  |  F6  |                   |  F7  |  F8   |  F9   |  F10 |  F11  |  F12  |
 // |   `   |  !  |  @  |  #   |  $   |  %   |                   |  ^   |  &    |  *    |  (   |   )   |   ~   |
 // |       |     |     |      |      |      |        |  |       |      |  _    |  +    |  {   |   }   |  "|"  |
 //                     |      |      |      |        |  |       |      |       |       |
@@ -60,7 +60,7 @@
 &trans &trans &trans &trans &trans &trans                    					&kp LC(DEL) &trans    		 &trans    &trans   			&trans  &trans
 &trans &trans &trans &trans &trans &trans                    					&kp LS(A)   &kp LS(PG_UP)  &kp UP    &kp LS(PG_DN)  &kp N0  &trans
 &trans &trans &trans &trans &trans &trans                    					&kp DEL     &kp HOME			 &kp DOWN  &kp END   			&trans  &trans
-&trans &trans &trans &trans &trans &trans   &trans   &kp PAUSE_BREAK  &kp LT 		  &kp GT 				 &trans    &trans 				&trans  &tog 0
+&trans &trans &trans &trans &trans &trans   &trans   &kp PAUSE_BREAK  &kp LT 		  &kp GT 				 &trans    &trans 				&trans  &tog 2
                      &trans &trans &trans   &trans   &trans  					&trans      &trans    		 &trans
 			>;
 
