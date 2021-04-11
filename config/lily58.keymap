@@ -39,7 +39,7 @@
 
 			media_layer {
 			bindings = <
-&bt BT_CLR 	&bt BT_SEL 0     &bt BT_SEL 1      &bt BT_SEL 2      &bt BT_SEL 3  &bt BT_SEL 4                &trans 			&trans     &trans    &trans     &trans   &trans
+&trans 			&trans 				   &trans   		     &trans						 &trans				 &trans                      &trans 			&trans     &trans    &trans     &trans   &trans
 &trans 			&trans 				   &trans   		     &trans						 &trans				 &trans                    	 &kp LC(DEL)  &trans     &kp I     &trans     &kp Q    &trans
 &trans 			&trans 				   &trans 					 &trans 					 &trans 			 &trans                    	 &kp LS(A)    &kp LT	   &kp UP  	 &kp GT     &trans   &trans
 &trans			&ext_power EP_ON &ext_power EP_OFF &ext_power EP_TOG &trans 			 &trans  	&none   	 &none   &kp HOME		  &kp LEFT 	 &kp DOWN  &kp RIGHT  &kp END  &trans
@@ -49,11 +49,11 @@
 
 		idea_layer {
 			bindings = <
-&trans &trans 	 &trans &trans 					&trans 			&trans                 &trans 	 &trans 		&trans 			&trans &trans 			 &trans
-&trans &trans 	 &trans &trans 					&kp LC(E) 	&trans                 &kp RC(B) &kp RA(F7) &kp RA(RET) &trans &kp RA(N1) 	 &trans
-&trans &kp RC(W) &trans &kp RC(RS(W)) 	&trans 			&trans                 &trans 	 &trans 		&trans 			&trans &kp LC(LA(L)) &trans
-&trans &trans 	 &trans &kp RC(RS(RET)) &trans 			&trans  &none  &none   &trans 	 &trans 		&trans 			&trans &kp RC(FSLH)  &trans
-                     		&none 					&trans 			&trans  &trans &trans  &trans 	 &trans 		&none
+&bt BT_CLR 	&bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2     &bt BT_SEL 3  &bt BT_SEL 4                 &trans 	 &trans 		&trans 			&trans &trans 			 &trans
+&trans 			&trans 	 			 &trans 				&trans 				   &kp LC(E)     &trans            		  			&kp RC(B) &kp RA(F7) &kp RA(RET) &trans &kp RA(N1) 	 &trans
+&trans 			&kp RC(W)      &trans 				&kp RC(RS(W)) 	 &trans 			 &trans            					  &trans 	 &trans 		&trans 			&trans &kp LC(LA(L)) &trans
+&trans 			&trans 	       &trans 				&kp RC(RS(RET))  &trans 			 &trans  &none 				&none   &trans 	 &trans 		&trans 			&trans &kp RC(FSLH)  &trans
+                                          &none 					 &trans 			 &trans  &trans 			&trans  &trans 	 &trans 		&none
 			>;
 		};
 
