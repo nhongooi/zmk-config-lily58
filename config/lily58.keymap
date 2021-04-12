@@ -31,7 +31,7 @@
 			bindings = <
 &kp F1   &kp F2 	  &kp F3     &kp F4 		&kp F5 		  	&kp F6                 &kp F7 	  &kp F8 		&kp F9   &kp F10   &kp F11 	&kp F12
 &trans   &trans 	  &trans     &trans 		&kp LC(E) 	  &trans                 &kp PG_UP  &kp HOME  &trans   &trans 	 &tog 2   &kp GRAVE
-&kp DEL  &kp LG(J)  &kp LG(K)  &kp LG(L)  &kp LG(SEMI)  &kp RET                &kp LEFT 	&kp DOWN  &kp UP	&kp RIGHT  &trans   &kp BSLH
+&kp DEL  &kp LG(J)  &kp LG(K)  &kp LG(L)  &kp LG(SEMI)  &kp RET                &kp LEFT 	&kp DOWN  &kp UP	&kp RIGHT  &tog 4   &kp BSLH
 &trans   &trans 	  &trans     &trans     &trans 		  	&trans  &none  &none   &kp PG_DN  &kp END   &kp DEL  &trans  	 &trans   &trans
                      		       &none 			&trans 			  &trans  &trans &trans  &trans 	  &trans 		&none
 			>;
@@ -54,6 +54,15 @@
 &trans 			&kp RC(W)      &trans 				&kp RC(RS(W)) 	 &trans 			 &trans            					  &trans 	 &trans 		&trans 			&trans &kp LC(LA(L)) &trans
 &trans 			&trans 	       &trans 				&kp RC(RS(RET))  &trans 			 &trans  &none 				&none   &trans 	 &trans 		&trans 			&trans &kp RC(FSLH)  &trans
                                           &none 					 &trans 			 &trans  &trans 			&trans  &trans 	 &trans 		&none
+			>;
+		};
+		rpg_layer {
+			bindings = <
+&trans	&trans 				   &trans   		     &trans						 &trans				 &trans                      &trans 	  &trans     &trans    &trans     &trans     &tog 4
+&trans 	&trans 				   &trans   		     &trans						 &trans				 &trans                    	 &kp LCTRL 	&kp X      &kp UP    &kp S      &kp LSHFT  &trans
+&trans 	&trans 				   &trans 					 &trans 					 &trans 			 &trans                    	 &kp SPACE  &kp LEFT 	 &kp DOWN  &kp RIGHT  &trans     &kp Z
+&trans 	&trans 				   &trans 					 &trans 					 &trans 			 &trans  	&none   	 &none   &trans 	  &trans 	   &trans 	 &trans 		&trans 		 &trans
+                             							 &none    				 &trans        &trans   &trans     &trans  &trans     &trans     &none
 			>;
 		};
 
